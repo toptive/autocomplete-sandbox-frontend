@@ -20,6 +20,6 @@ export default ({ value, loading, onChange}) => (
       value={value}
       onChange={onChange}
     />
-    {loading && <span style={styles.spinner} class="spinner" />}
+    {loading && <span style={styles.spinner} className="spinner" />}
   </form>
 );

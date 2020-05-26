@@ -48,8 +48,8 @@ class AutocompleteInput extends Component {
     const { search, loading } = this.state;
 
     return (
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           <Input
             value={search}
             loading={loading}
